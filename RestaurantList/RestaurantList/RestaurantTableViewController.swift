@@ -61,31 +61,8 @@ Restaurant(name:"Thai Cafe", type:"Thai", location: "London", image: "thaicafe.j
         return cell
     }
     
-/*    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        let optionMenu = UIAlertController(title:nil,message: "What do you want to do?", preferredStyle: UIAlertController.Style.actionSheet)
-        let cancelAction = UIAlertAction(title: "Cancel",style: .cancel, handler: nil)
-        optionMenu.addAction(cancelAction)
-        self.present(optionMenu, animated: true, completion: nil)
-        
-        // Call action
-        let callActionHandler = {(action: UIAlertAction!) -> Void in
-            let alertMessage = UIAlertController(title: "Service unavailable", message: "Sorry, the call feature is not available yet.", preferredStyle: .alert)
-            alertMessage.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            self.present(alertMessage, animated: true, completion: nil)
-        }
-        
-        let callAction = UIAlertAction(title: "Call " + "123-000-\(indexPath.row)", style: UIAlertAction.Style.default, handler: callActionHandler)
-        optionMenu.addAction(callAction)
-        let isVisitedAction = UIAlertAction(title: "I've been here", style: .default, handler: {
-            (action:UIAlertAction!) -> Void in
-            let cell = tableView.cellForRow(at: indexPath)
-            cell?.accessoryType = UITableViewCell.AccessoryType.checkmark
-            self.restaurantIsVisited[indexPath.row] = true
-        })
-        
-        optionMenu.addAction(isVisitedAction)
-    }*/
+    @IBAction func unwindToHomeScreen(segue: UIStoryboardSegue){
+    }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         

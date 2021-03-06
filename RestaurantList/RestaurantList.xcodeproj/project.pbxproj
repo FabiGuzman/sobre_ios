@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24A13125F1CE1900352EC2 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24A13025F1CE1900352EC2 /* AddTableViewController.swift */; };
 		3F682CD025D8693B00EBD9E7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682CCF25D8693B00EBD9E7 /* Restaurant.swift */; };
 		3F74B28625CF0EC7002026BF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74B28525CF0EC7002026BF /* CustomTableViewCell.swift */; };
 		3F78EF9B25C9F88E002DF758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78EF9A25C9F88E002DF758 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F24A13025F1CE1900352EC2 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
 		3F682CCF25D8693B00EBD9E7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		3F74B28525CF0EC7002026BF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		3F78EF9725C9F88E002DF758 /* RestaurantList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				3FC2594825D45866000A6F58 /* DetailViewController.swift */,
 				3F78EFCA25C9F98C002DF758 /* RestaurantTableViewController.swift */,
 				3FDCEB7725E3370200FE935A /* ReviewViewController.swift */,
+				3F24A13025F1CE1900352EC2 /* AddTableViewController.swift */,
 			);
 			path = RestaurantList;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				3FC2594925D45866000A6F58 /* DetailViewController.swift in Sources */,
 				3F74B28625CF0EC7002026BF /* CustomTableViewCell.swift in Sources */,
 				3F78EFCB25C9F98C002DF758 /* RestaurantTableViewController.swift in Sources */,
+				3F24A13125F1CE1900352EC2 /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
