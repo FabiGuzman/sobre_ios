@@ -1,3 +1,11 @@
+//
+//  RestaurantListTests.swift
+//  RestaurantListTests
+//
+//  Created by Fabian Antonio Guzman Gonzalez on 13/03/21.
+//  Copyright © 2021 Fabian Antonio Guzman Gonzalez. All rights reserved.
+//
+
 import XCTest
 @testable import RestaurantList
 

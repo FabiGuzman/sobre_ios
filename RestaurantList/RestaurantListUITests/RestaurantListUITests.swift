@@ -2,7 +2,7 @@
 //  RestaurantListUITests.swift
 //  RestaurantListUITests
 //
-//  Created by Fabian Antonio Guzman Gonzalez on 2/02/21.
+//  Created by Fabian Antonio Guzman Gonzalez on 13/03/21.
 //  Copyright © 2021 Fabian Antonio Guzman Gonzalez. All rights reserved.
 //
 
